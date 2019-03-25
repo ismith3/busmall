@@ -1,0 +1,58 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid black;
+  padding: 20px;
+  height: 40px;
+}
+header img {
+  padding: 20px;
+  border: 1px solid black;
+  float: left;
+}
+h1 {
+  width: 100px;
+  margin: 0 20px;
+  padding: 0;
+  float: left;
+}
+.nav {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.main-img {
+  border: 1px solid black;
+  height: 300px;
+  margin: 0;
+}
+.main-img:hover {
+  cursor: pointer;
+}
+.center {
+  margin: 0 20px;
+}
+main {
+  border: 1px solid black;
+  border-top: none;
+  padding: 40px 0;
+  float: right;
+  width: calc(75% + 1px);
+  text-align: center;
+}
+aside {
+  padding: 0;
+  float: left;
+  border-bottom: 1px solid black;
+  width: calc(25% - 3px);
+}
+button {
+  width: 400px;
+  margin: 40px 0 0;;
+}
