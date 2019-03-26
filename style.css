@@ -56,3 +56,12 @@ button {
   width: 400px;
   margin: 40px 0 0;;
 }
+
+canvas {
+  border: 1px solid black;
+}
+.chart-container {
+  position: relative;
+  width: 90vw;
+  margin: 40px auto;
+}
