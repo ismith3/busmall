@@ -45,6 +45,7 @@ main {
   float: right;
   width: calc(75% + 1px);
   text-align: center;
+  margin-bottom: 40px;
 }
 aside {
   padding: 0;
@@ -53,11 +54,11 @@ aside {
   width: calc(25% - 3px);
 }
 button {
-  width: 400px;
-  margin: 40px 0 0;;
+  margin: 20px;
+  display: block;
 }
-
 canvas {
+  display: none;
   border: 1px solid black;
 }
 .chart-container {
